@@ -1,0 +1,14 @@
+    <ng-container *ngIf="course.length">
+      <div *ngFor="let doc of course; let i=index">
+      <div class="card text-center">
+        <div class="card-header">
+          Web Devlopment
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">{{doc.courseName}}</h5>
+          <p class="card-text">{{doc.courseDescription}}</p>
+          <a href="#" class="btn btn-primary" routerLink="/web">Start Course</a>
+        </div>
+      </div>
+    </div>
+    </ng-container>
