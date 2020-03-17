@@ -10,7 +10,6 @@ import {  HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LogInComponent } from './log-in/log-in.component';
 import { HomeComponent } from './home/home.component';
-import { RegisterComponent } from './register/register.component';
 import { CardComponent } from './card/card.component';
 import { WebDevListComponent } from './category/web-dev-list/web-dev-list.component';
 import {ServicesService} from '../app/services.service';
@@ -26,13 +25,12 @@ import { WebComponent } from './videos/web/web.component';
     CarouselComponent,
     CategoryComponent,
     FooterComponent,
-    LogInComponent,
     HomeComponent,
-    RegisterComponent,
     CardComponent,
     WebDevListComponent,
     VideosComponent,
-    WebComponent
+    WebComponent,
+    LogInComponent,
     //BusinessListComponent,
     //GamingListComponent
   ],

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+ import { Component, OnInit } from '@angular/core';
 import {ServicesService} from '../../services.service';
 import {Router} from '@angular/router';
 import { Courses } from 'src/app/models/Courses.model';
@@ -13,11 +13,11 @@ export class WebDevListComponent implements OnInit {
 
   course:Courses[]=[];
 
-  public courses$: Observable<Courses[]>;
+ // public courses$: Observable<Courses[]>;
 
-  displayedColums=['CategoryName','Description'];
-  displayCourses=['CourseName', 'CourseDescription'];
-  constructor(private service: ServicesService, private router:Router,public client: HttpClient) { }
+  //displayedColums=['CategoryName','Description'];
+  //displayCourses=['CourseName', 'CourseDescription'];
+  constructor(private service: ServicesService) { }
 
   public ngOnInit() {
       this.service.fetchCourses().subscribe((course:Courses[])=>{

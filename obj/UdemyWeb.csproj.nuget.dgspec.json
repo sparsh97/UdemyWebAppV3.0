@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\spars\\Desktop\\UdemyWeb\\UdemyWeb.csproj": {}
+    "C:\\Users\\INT163\\Desktop\\UdemyWebAppV3.0\\UdemyWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\spars\\Desktop\\UdemyWeb\\UdemyWeb.csproj": {
+    "C:\\Users\\INT163\\Desktop\\UdemyWebAppV3.0\\UdemyWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\spars\\Desktop\\UdemyWeb\\UdemyWeb.csproj",
+        "projectUniqueName": "C:\\Users\\INT163\\Desktop\\UdemyWebAppV3.0\\UdemyWeb.csproj",
         "projectName": "UdemyWeb",
-        "projectPath": "C:\\Users\\spars\\Desktop\\UdemyWeb\\UdemyWeb.csproj",
-        "packagesPath": "C:\\Users\\spars\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\spars\\Desktop\\UdemyWeb\\obj\\",
+        "projectPath": "C:\\Users\\INT163\\Desktop\\UdemyWebAppV3.0\\UdemyWeb.csproj",
+        "packagesPath": "C:\\Users\\INT163\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\INT163\\Desktop\\UdemyWebAppV3.0\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\spars\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\INT163\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

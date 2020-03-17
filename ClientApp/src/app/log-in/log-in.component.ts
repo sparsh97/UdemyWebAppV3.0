@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { UserService } from '../user.service';
+import { UserInfo } from '../models/UserInfo.model';
 
 @Component({
   selector: 'app-log-in',
@@ -7,9 +9,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LogInComponent implements OnInit {
 
-  constructor() { }
+  userInfo:UserInfo[]=[];
+  constructor(private login: UserService) { }
 
-  ngOnInit(): void {
+  public ngOnInit(): void {
+    this.login.fetchUserInfo(this.userInfo).subscribe((user:UserInfo[])=>{
+      this.userInfo=user;
+      console.log(this.userInfo);
+    })
   }
 
 }
+
+

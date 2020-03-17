@@ -8363,11 +8363,12 @@
       ]
     },
     "System.Diagnostics.FileVersionInfo/4.3.0": {
-      "sha512": "6WVi7gArhxRiC+3qI5V2mFe1gHENj/F7xT5PQiy/lI/RsxXeivrt09WF0huwSQK2ubnmyyRFeA9z3w743/w32A==",
+      "sha512": "omCF64wzQ3Q2CeIqkD6lmmxeMZtGHUmzgFMPjfVaOsyqpR66p/JaZzManMw1s33osoAb5gqpncsjie67+yUPHQ==",
       "type": "package",
       "path": "system.diagnostics.fileversioninfo/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -12147,23 +12148,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\spars\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\INT163\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\spars\\Desktop\\UdemyWeb\\UdemyWeb.csproj",
+      "projectUniqueName": "C:\\Users\\INT163\\Desktop\\UdemyWebAppV3.0\\UdemyWeb.csproj",
       "projectName": "UdemyWeb",
-      "projectPath": "C:\\Users\\spars\\Desktop\\UdemyWeb\\UdemyWeb.csproj",
-      "packagesPath": "C:\\Users\\spars\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\spars\\Desktop\\UdemyWeb\\obj\\",
+      "projectPath": "C:\\Users\\INT163\\Desktop\\UdemyWebAppV3.0\\UdemyWeb.csproj",
+      "packagesPath": "C:\\Users\\INT163\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\INT163\\Desktop\\UdemyWebAppV3.0\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\spars\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\INT163\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -7,10 +7,9 @@ import { WebComponent } from './videos/web/web.component';
 //import { BusinessListComponent } from './category/business-list/business-list.component';
 //import { GamingListComponent } from './category/gaming-list/gaming-list.component';
 
-
 const routes: Routes = [
   {path:'', pathMatch: 'full', redirectTo: 'home'},
-  {path: 'login', component:LogInComponent},
+  {path: 'log-in', component:LogInComponent},
   {path:'home', component: HomeComponent},
   {path: 'register', component: HomeComponent},
   {path: 'web-dev-list', component: WebDevListComponent},
